@@ -30,15 +30,16 @@ h2 {
 
 }
 
-p, ol, ul
+p, ol
 {
   margin-top: 0;
 }
 
-ol, ul
+ul
 {
   padding: 0;
   list-style: none;
+  line-height: 1.6;
 }
 
 p
@@ -371,12 +372,13 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu .current_page_item a
 {
-  background: #BC1414;
+  /*background: #BC1414;*/
   color: #FFF;
 }
 
 #menu a:hover
 {
+  background: #BC1414;
   text-decoration: none;
   color: #FFF;
 }
@@ -385,10 +387,11 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 /* Banner                                                                        */
 /*********************************************************************************/
 
-#banner
+*#banner
 {
   margin: 2em auto;
 }
+
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -465,7 +468,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-#copyright
+/*#copyright
 {
   padding: 6em 0em;
   font-size: 0.75em;
@@ -478,7 +481,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #copyright a
 {
   color: #747474;
-}
+}*/
 
 /*********************************************************************************/
 /* Three Columns                                                                 */
