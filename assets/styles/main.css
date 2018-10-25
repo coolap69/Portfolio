@@ -1,13 +1,16 @@
-html, body
+/* html, body
 {
 
   height: 100%;
-  background: linear-gradient(to right, black, #382d2d, black, #382d2d);
+  background: linear-gradient(to right, black, #382d2d, white);
 
-}
+} */
 
 body
 {
+  height: 100%;
+  width:100%;
+  background: linear-gradient(to right, black, #382d2d, red);
   margin: 0px;
   padding: 0px;
 
