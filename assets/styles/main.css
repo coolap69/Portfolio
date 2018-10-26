@@ -1,19 +1,17 @@
-/* html, body
-{
-
+/* rid off margin and paddings */
+* {
+  margin:0;
+  padding: 0;
+}
+  
+body {
   height: 100%;
-  background: linear-gradient(to right, black, #382d2d, white);
-
-} */
-
-body
-{
-  height: 100%;
-  width:100%;
   background: linear-gradient(to right, black, #382d2d, red);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0px;
   padding: 0px;
-
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12pt;
   font-weight: 400;
@@ -48,10 +46,6 @@ ul
 p
 {
   line-height: 180%;
-}
-
-strong
-{
 }
 
 a
@@ -183,9 +177,9 @@ ul.style2 h3 {
   letter-spacing: 0.10em;
 }
 
-ul.style2 h3 a {
+/* ul.style2 h3 a {
   color: #FFF;
-}
+} */
 
 ul.style2 a {
   text-decoration: none;
@@ -342,7 +336,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu
 {
-  background: #1B1B1B url(images/bg01.png) repeat;
+  background: #1B1B1B;
   border-bottom: 4px solid #BC1414;
 }
 
@@ -392,7 +386,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 *#banner
 {
-  margin: 2em auto;
+  margin: 2;
 }
 
 
