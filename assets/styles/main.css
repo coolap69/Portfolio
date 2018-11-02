@@ -3,21 +3,92 @@
   margin:0;
   padding: 0;
 }
+.wrapper {
+  width: 100%;
+}
+
+.img-banner {
+display: none;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.img-me {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .img-banner {
+      display: block;
+      width: 100%;
+    }
+
+  #menu {
+    width: 600px;
+    margin: 0 auto;
+    }
+
+    .img-info h2 {
+      padding: 20px 0px 0px;
+    }
+    
+    .img-info p {
+    padding: 20px 0px 0px;
+  }
+
+  .img-me {
+    padding-top: 30px;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+  
+    #menu {
+      width: 1000px;
+      }
+  
+      .img-info {
+      width: 50%;
+      float: right;     
+    }
+  
+
+    .img-me {
+      padding-top: 0px;
+      width: 50%;
+    }
+  
+  }
+
+
   
 body {
-  height: 100%;
   background: linear-gradient(to right, black, #382d2d, red);
-  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12pt;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* font-size: 12pt; */
   font-weight: 400;
   color: #919191;
 }
-
+/* 
 h1, h3
 {
   margin: 0;
@@ -29,12 +100,12 @@ h2 {
   margin: 0;
   padding: 0;
 
-}
+} */
 
-p, ol
+/* p, ol
 {
   margin-top: 0;
-}
+} */
 
 ul
 {
@@ -91,7 +162,7 @@ a:hover
 /* Image Style                                                                   */
 /*********************************************************************************/
 
-.image
+/* .image
 {
   display: inline-block;
 }
@@ -124,7 +195,7 @@ a:hover
 .image-centered img
 {
   margin: 0 auto;
-  width: auto;
+  width: auto; */
 }
 
 /*********************************************************************************/
@@ -287,14 +358,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   }
 
 /*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-#header
-{
-}
-
-/*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
@@ -338,6 +401,8 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 {
   background: #1B1B1B;
   border-bottom: 4px solid #BC1414;
+  width: 100%;
+
 }
 
 #menu ul
