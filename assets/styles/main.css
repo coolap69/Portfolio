@@ -3,36 +3,36 @@
   margin:0;
   padding: 0;
 }
-.wrapper {
-  width: 100%;
-}
 
-.img-banner {
+/* .img-banner {
 display: none;
-}
+} */
 
-.img-info {
+/* .img-info {
   width: 100%;
-}
+} */
 
-.img-info h2 {
+/* .img-info h2 {
   padding: 30px 30px 20px;
   font-family: arial;
   font-size: 50px;
   color: #111;
   line-height: 44px;
-}
+} */
 
-.img-info p {
+/* .img-info p {
   padding: 0px 30px 20px;
   font-family: arial;
   font-size: 16px;
   color: #111;
   line-height: 24px;
 }
-
+*/
 .img-me {
-    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    margin: 0 0 2em 0;
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -42,21 +42,22 @@ display: none;
     }
 
   #menu {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
     }
 
-    .img-info h2 {
+  .img-info h2 {
       padding: 20px 0px 0px;
     }
     
-    .img-info p {
+  .img-info p {
     padding: 20px 0px 0px;
   }
 
   .img-me {
     padding-top: 30px;
   }
+}
   
   @media only screen and (min-width: 1000px) {
   
@@ -83,12 +84,12 @@ body {
   background: linear-gradient(to right, black, #382d2d, red);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* font-family: 'Source Sans Pro', sans-serif; */
-  /* font-size: 12pt; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12pt;
   font-weight: 400;
   color: #919191;
 }
-/* 
+
 h1, h3
 {
   margin: 0;
@@ -100,12 +101,7 @@ h2 {
   margin: 0;
   padding: 0;
 
-} */
-
-/* p, ol
-{
-  margin-top: 0;
-} */
+}
 
 ul
 {
@@ -132,7 +128,7 @@ a:hover
 .container
 {
   margin: 0px auto;
-  width: 1200px;
+  width: 100%;
 }
 
 /*********************************************************************************/
@@ -164,9 +160,11 @@ a:hover
 
 /* .image
 {
-  display: inline-block;
-}
-
+  display: flex;
+  width: 600px;
+  margin: 0 0 2em 0;
+} */
+/*
 .image img
 {
   display: block;
@@ -195,8 +193,8 @@ a:hover
 .image-centered img
 {
   margin: 0 auto;
-  width: auto; */
-}
+  width: auto;
+} */
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -261,53 +259,7 @@ ul.style2 a:hover {
   text-decoration: underline;
 }
 
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
 
-ul.contact
-{
-  margin: 0;
-  padding: 2em 0em 0em 0em;
-  list-style: none;
-}
-
-ul.contact li
-{
-  display: inline-block;
-  padding: 0em 0.30em;
-  font-size: 1em;
-}
-
-ul.contact li span
-{
-  display: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.contact li a
-{
-  color: #FFF;
-}
-
-ul.contact li a:before
-{
-  display: inline-block;
-  background: #3f3f3f;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 20px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-ul.contact li a.icon-twitter:before { background: #2DAAE4; }
-ul.contact li a.icon-facebook:before { background: #39599F; }
-ul.contact li a.icon-dribbble:before { background: #C4376B;	}
-ul.contact li a.icon-tumblr:before { background: #31516A; }
-ul.contact li a.icon-rss:before { background: #F2600B; }
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -572,6 +524,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #three-column #tbox3
 {
   float: left;
-  width: 300px;
+  width: 200px;
   padding: 50px 50px 80px 50px;
 }
