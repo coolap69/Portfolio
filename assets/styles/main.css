@@ -57,23 +57,24 @@ display: none;
   .img-me {
     padding-top: 30px;
   }
+
 }
   
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 2000px) {
   
     #menu {
-      width: 1000px;
+      width: 100%;
       }
   
-      .img-info {
+    .img-info {
       width: 50%;
       float: right;     
     }
   
-
     .img-me {
       padding-top: 0px;
       width: 50%;
+      float: left;
     }
   
   }
@@ -153,113 +154,6 @@ a:hover
 {
   color: #6F6F6F;
 }
-
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-/* .image
-{
-  display: flex;
-  width: 600px;
-  margin: 0 0 2em 0;
-} */
-/*
-.image img
-{
-  display: block;
-  width: 100%;
-}
-
-.image-full
-{
-  display: block;
-  width: 100%;
-  margin: 0 0 2em 0;
-}
-
-.image-left
-{
-  float: left;
-  margin: 0 2em 2em 0;
-}
-
-.image-centered
-{
-  display: block;
-  margin: 0 0 2em 0;
-}
-
-.image-centered img
-{
-  margin: 0 auto;
-  width: auto;
-} */
-
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
-
-ul.style1 {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-ul.style1 li {
-  padding: 10px 0px 15px 0px;
-  border-top: 1px solid #363636;
-}
-
-ul.style1 a {
-  text-decoration: none;
-  color: #919191;
-}
-
-ul.style1 a:hover {
-  text-decoration: underline;
-}
-
-ul.style1 .first {
-  padding-top: 0px;
-  border-top: none;
-}
-
-ul.style2 {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-
-ul.style2 li {
-  padding: 25px 0px 15px 0px;
-  border-top: 1px solid #363636;
-}
-
-ul.style2 .first {
-  padding-top: 0px;
-  border-top: none;
-}
-
-ul.style2 h3 {
-  padding: 0px 0px 10px 0px;
-  letter-spacing: 0.10em;
-}
-
-/* ul.style2 h3 a {
-  color: #FFF;
-} */
-
-ul.style2 a {
-  text-decoration: none;
-  color: #919191;
-}
-
-ul.style2 a:hover {
-  text-decoration: underline;
-}
-
-
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -344,7 +238,19 @@ ul.style2 a:hover {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 320px) {
 
+  #logo h1 a
+  {
+    font-size: 41px;
+  } 
+  @media only screen and (min-width: 2000px) {
+
+    #logo h1 a
+    {
+      font-size: 24px;
+    } 
+}
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
